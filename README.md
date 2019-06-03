@@ -1,1 +1,1 @@
-https://angelfire529.github.io/bb_7prototype
+https://angelfire529.github.io/bb_7_prototype
