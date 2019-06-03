@@ -1,5 +1,8 @@
-import React from 'react'
+import React, { CSSProperties } from 'react'
 
+const carrot: CSSProperties = {
+    color: 'white'
+}
 
 interface SideNavProps { }
 
@@ -10,7 +13,7 @@ const SideNav: React.FC<SideNavProps> = () => {
                 <ul className="sidebar-menu">
                     <li className="sub-menu">
                         <div className="toggle-nav">
-                            <i className="arrow_carrot-2left"></i>
+                            <i className="arrow_carrot-2left" style={carrot}></i>
                         </div>
                     </li>
                     <li className="active">

@@ -1,12 +1,29 @@
-import React from 'react';
+import React, { CSSProperties } from 'react';
 
+const headerStyle: CSSProperties = {
+    zIndex: 999
+}
+
+const logo: CSSProperties = {
+    color: '#fed189',
+    fontWeight: 300,
+    fontSize: '22px',
+    textTransform: 'uppercase',
+    textDecoration: 'none',
+    position: 'absolute',
+    left: '55px'
+}
+
+const lite = {
+    color: '#00a0df',
+}
 
 interface TopNavProps {}
 
 const TopNav: React.FC<TopNavProps> = () =>  {
-    return <header className="navbar navbar-dark dark-bg ">
+    return <header className="navbar navbar-dark dark-bg " style={headerStyle}>
     <span className="mega-dropdown">
-        <a data-toggle="dropdown" href="javascript: Void(0)"><i className="icon_grid-3x3 poppers"></i></a>
+        <a className="waffle" data-toggle="dropdown" href="javascript: Void(0)"><i className="icon_grid-3x3 poppers"></i></a>
     
         <ul className="dropdown-menu mega-dropdown-menu row">
             <li className="col-sm-3">
@@ -59,6 +76,10 @@ const TopNav: React.FC<TopNavProps> = () =>  {
         </ul>
     
     </span>
+    <a style={logo} href="#">
+        Black
+        <span style={lite}>Belt 7.0</span>
+    </a>
     </header>
 }
 
