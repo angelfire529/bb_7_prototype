@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/bb_7prototype/static/css/main.e121712b.chunk.css",
+    "main.js": "/bb_7prototype/static/js/main.23139083.chunk.js",
+    "main.js.map": "/bb_7prototype/static/js/main.23139083.chunk.js.map",
+    "runtime~main.js": "/bb_7prototype/static/js/runtime~main.198d89e8.js",
+    "runtime~main.js.map": "/bb_7prototype/static/js/runtime~main.198d89e8.js.map",
+    "static/js/2.7abb4a0e.chunk.js": "/bb_7prototype/static/js/2.7abb4a0e.chunk.js",
+    "static/js/2.7abb4a0e.chunk.js.map": "/bb_7prototype/static/js/2.7abb4a0e.chunk.js.map",
+    "index.html": "/bb_7prototype/index.html",
+    "precache-manifest.837d0d5c310723dd8221ca486152548e.js": "/bb_7prototype/precache-manifest.837d0d5c310723dd8221ca486152548e.js",
+    "service-worker.js": "/bb_7prototype/service-worker.js",
+    "static/css/main.e121712b.chunk.css.map": "/bb_7prototype/static/css/main.e121712b.chunk.css.map",
+    "static/media/index.scss": "/bb_7prototype/static/media/ElegantIcons.fdd9e757.woff"
+  }
+}
