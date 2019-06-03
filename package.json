@@ -2,12 +2,14 @@
   "name": "bb_7_prototype",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://angelfire529.github.io/bb_7prototype",
   "dependencies": {
     "@types/jest": "24.0.13",
     "@types/node": "12.0.4",
     "@types/react": "16.8.19",
     "@types/react-dom": "16.8.4",
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.0.1",
     "jquery": "^3.4.1",
     "node-sass": "^4.12.0",
     "popper.js": "^1.15.0",
@@ -20,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
